@@ -1,1 +1,1 @@
-# bubble-sort
+# Bubble Sort
