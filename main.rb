@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort(array)
   n = array.length - 1
 
@@ -15,7 +17,7 @@ def bubble_sort(array)
   array
 end
 
-p bubble_sort([4,3,78,2,0,2])
-p bubble_sort([10,4,27,15,8])
+p bubble_sort([4, 3, 78, 2, 0, 2])
+p bubble_sort([10, 4, 27, 15, 8])
 
 # For each element in the list, look at the element and the element directly to the right, if they are out of order (left is greater than right), swap them
